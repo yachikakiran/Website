@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_Template</title>
+    <meta http-equiv="refresh" content="2">
+    <link rel="shortcut icon" href="C:\Users\kiran\Downloads\favicon.webp" type="image/x-icon">
+</head>
+<style>
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: url("university.jpg");
+        position: relative;
+        background-position: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 7px;
+
+    }
+
+    nav img {
+        width: 80px;
+        height: 60px;
+        margin: 5px 7px;
+
+    }
+
+    .navigation {
+        flex: 1;
+        text-align: right;
+        position:sticky;
+    }
+
+    .navigation ul li {
+        list-style: none;
+        float: right;
+        padding: 9px 15px;
+        position:relative;
+    }
+
+    .navigation ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: 300px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    .navigation ul li a:hover {
+        color: black;
+    }
+
+    .textbox {
+        width: 90%;
+        color: white;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .textbox h1 {
+        font-size: 60px;
+        text-shadow:0 0 6px rgb(141, 46, 46),0 0 7px rgb(133, 49, 133);
+    }
+
+    .textbox p {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: aliceblue
+    }
+
+    .btn {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid white;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        padding: 11px 16px;
+        outline-color:rgb(86, 8, 8);
+        outline-width: 10px;
+        outline-style: solid;
+
+    }
+
+    .btn:hover {
+        border: 2px solid black;
+        background-color: red;
+    }
+
+    .course {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .course_col {
+        border-radius: 10px;
+        background-color: rgb(243, 202, 209);
+        padding: 12px 14px;
+        margin: 1px 3px 5px 4px;
+        box-sizing: border-box;
+
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0px:
+    }
+
+    .course_col:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
+    }
+
+    .campus {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .cta {
+        margin: 100px auto;
+        width: 80%;
+        height: 200px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7));
+        background-image: url("group\ study.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 50px 50px;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0px;
+
+    }
+
+    .footer a {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-shadow: 0px 0px 5px rgb(220, 82, 82), 0px 0px 4px rgb(145, 145, 215), 0px 0px 6px purple;
+        border:2px solid black;
+        outline-color:rgb(86, 8, 8);
+        outline-width: 10px;
+        outline-style: solid;
+        text-decoration: none;
+        display: inline-block;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        padding: 11px 16px;
+
+    }
+    .footer a:hover{
+        border: 2px solid black;
+        background-color: red;
+    }
+    nav h2{
+        color: white;
+        text-decoration: underline;
+        padding: 8px 10px;
+
+    }
+</style>
+
+<body>
+    <section class="header">
+        <nav>
+            <img src="edu_ford.jpg" alt="EduFord">
+            <h2>EduFord</h2>
+            <div class="navigation">
+                <ul>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="textbox">
+            <h1>World's Biggest University</h1>
+            <p>
+                Making website is now one of the easiest thing in the world. You just need to learn
+                HTML,CSS,<br>JAVASCRIPT and you are good to go.
+            </p>
+            <a href="" class="btn">Visit us to know more</a>
+        </div>
+
+    </section>
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quaerat officiis amet molestias. Natus, ipsa
+            ullam, tenetur libero consequuntur incidunt ex aperiam quisquam earum laboriosam, accusamus odit debitis
+            praesentium? Deserunt?</p>
+        <div class="row">
+            <div class="course_col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia alias ratione earum est laudantium non
+                    rerum nesciunt dolorem eius? Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="course_col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia alias ratione earum est laudantium non
+                    rerum nesciunt dolorem eius?Lorem ipsum dolor sit amet consectetur. Est.</p>
+            </div>
+            <div class="course_col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia alias ratione earum est laudantium non
+                    rerum nesciunt dolorem eius?Lorem ipsum dolor sit amet consectetur. Est.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita sed, tempore nihil sapiente enim.
+        </p>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our various Online Courses <br>Anywhere From The World</h1>
+        <a href="" class="btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <a href="">ABOUT US</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus quos deserunt<br> voluptatum,
+            corporis, cupiditate quaerat, eaque impedit facere eligendi praesentium aliquam exercitationem velit odio.
+        </p>
+    </section>
+
+</body>
+</html>
